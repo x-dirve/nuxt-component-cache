@@ -47,6 +47,7 @@ const ComponentCache: Module<ComponentCacheOptions> = function (options) {
                 );
             }
             delete options.enable;
+            delete options.silent;
             this.options.render.bundleRenderer.cache = new LRU(
                 Object.assign(
                     {}

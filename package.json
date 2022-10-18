@@ -6,12 +6,18 @@
         "type": "git",
         "url": "git+https://github.com/x-drive/nuxt-component-cache.git"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "digiaries <digiaries@hotmail.com>",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/x-drive/nuxt-component-cache/issues"
     },
     "homepage": "https://github.com/x-drive/nuxt-component-cache#readme",
+    "keywords": [
+        "nuxt",
+        "cache",
+        "module",
+        "lru"
+    ],
     "scripts": {
         "dev": "swc src -D ./src/bin  --config-file .swcrc -d dist -w",
         "compile": "swc src -D ./src/bin --config-file .swcrc -d dist",
